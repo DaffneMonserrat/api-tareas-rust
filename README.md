@@ -1,25 +1,37 @@
-# Sistema de gestión de tareas en Rust
+📱 Inventario de Celulares en Rust
 
-Este proyecto es un backend simple desarrollado en Rust que permite administrar una lista de tareas.
+Este proyecto es un backend desarrollado en Rust inspirado en el funcionamiento de contratos inteligentes en Solana.
 
-El sistema permite realizar operaciones básicas como crear, visualizar, editar y eliminar tareas. 
-La información se guarda en un archivo JSON para mantener los datos.
+La aplicación permite gestionar el inventario de celulares de una tienda mediante operaciones CRUD.
 
-## Funciones
+Cada tienda pertenece a un propietario y puede registrar múltiples celulares dentro de su inventario.
 
-- Crear tarea
-- Ver tareas
-- Editar tarea
-- Eliminar tarea
+Funciones principales
 
-## Cómo ejecutar el proyecto
+crear_tienda  
+Inicializa una tienda asociada a un propietario.
 
-1. Instalar Rust
-2. Abrir la carpeta del proyecto
-3. Ejecutar el siguiente comando en la terminal:
+registrar_celular  
+Permite agregar un celular al inventario.
 
-cargo run
+eliminar_celular  
+Elimina un celular del inventario.
 
-## Autor
+actualizar_stock  
+Actualiza la cantidad disponible de un celular.
+
+alternar_disponibilidad  
+Activa o desactiva la venta del celular.
+
+ver_inventario  
+Muestra el listado de celulares registrados.
+
+Tecnologías
+
+Rust
+
+Backend CLI
+
+Autor
 
 Daffne Monserrat Gutierrez Esparza
